@@ -28,5 +28,27 @@ $cat teste.txt
 $tail text.txt
 
 # Arquivo distros contem a saida do comando: $tail teste.txt
-$tail teste.txt > distros.txt
+$tail teste.txt > texteTail.txt
 
+#Mostra o calendário
+$cal
+$cal > calendario_jul.txt
+
+
+$nano calendario_jul.txt
+
+#Mostra a data
+$date
+
+#Coloca a data em baixo do conteúdo que tinha após pular uma linhas
+$date >> calendario_jul.txt
+
+#Mostra todo canlendário de 2020 E manda / o arquivo
+$cal 2020 > calendario_jul.txt
+
+$mv calendario_jul.txt calendario_2020.txt
+
+#GREP faz uma busca pelo texto "Linux" dentro de arquivo
+$tail distros.txt | grep Linux
+
+#Paginação de textos
