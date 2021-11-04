@@ -52,3 +52,27 @@ $mv calendario_jul.txt calendario_2020.txt
 $tail distros.txt | grep Linux
 
 #Paginação de textos
+$cat textoGigante.txt | more
+
+#Paginação de textos
+$cat textoGigante.txt | less
+
+##OPERADORES
+##OPERADORES
+
+#com quebra
+$cat maio.txt & calendario_2020.txt
+
+#Sem quebra, mostra o print inteiro de uma vez só
+$cat maio.txt && calendario_2020.txt
+
+#Mostra o arquivo
+$file maio.txt
+$file Desktop
+
+#Mostra o que cada comando faz
+$whatis file
+$whatis find
+$whatis cd
+
+GUIAFOCA.ORG 
