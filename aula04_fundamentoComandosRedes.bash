@@ -5,13 +5,14 @@ $sudo apt-get install netools
 
 $ifconfig
 
+#info sobr o HOST
 $hostname
 
 #loopback
 $hostname -i
 
 #IP na rede
-$hostname -l
+$hostname -I
 
 #Infos sobre DNS do HOST
 $dig host	
