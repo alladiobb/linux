@@ -1,4 +1,0 @@
-#Commandos++
-
-#numero de linhas
-$nl teste.txt
