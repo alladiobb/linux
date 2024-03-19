@@ -20,6 +20,7 @@ $lsusb
 $arch
 
 #Kernel/Version_Kernel/
+uname -a #all information
 $uname 
 $uname -r
 $uname -m
