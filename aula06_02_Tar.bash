@@ -1,7 +1,7 @@
 #TAR
 
 $tar -cf arquivos.tar aularedes.txt arquivo.txt teste.txt
-$gzip arquivos.tar]
+$gzip arquivos.tar
 
 #Extrair
 $tar -xvf arquivos.txt.tar.gz
